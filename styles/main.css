@@ -1,0 +1,28 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+main {
+  display: inline-block;
+  width: 1200px;
+  margin-left: calc(50% - 600px);
+  /* height: 800px;
+  margin-top: calc(50% - 400px); */
+}
+div.leftCol {
+  float: left;
+  width: 40%;
+  padding: 40px;
+  background-color: antiquewhite;
+}
+
+div.rightCol {
+  float: left;
+  width: 60%;
+  padding: 60px;
+  background-color: aqua;
+}
