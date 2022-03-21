@@ -19,10 +19,12 @@ Design: https://cdn.discordapp.com/attachments/850245533838868480/85024636821490
 - Github pages
 - fixed width container
 - fixed height container
-- png images
+- png image
 - background image
+- form style
 - table
 - multiple html pages
+- favicon
 
 ## Authors
 
