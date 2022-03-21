@@ -24,6 +24,7 @@ Design: https://cdn.discordapp.com/attachments/850245533838868480/85024636821490
 - form style
 - table
 - multiple html pages
+
 - favicon
 
 ## Authors
