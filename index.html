@@ -4,12 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/form.css" />
     <link rel="stylesheet" href="./styles/main.css" />
-    <link
-      rel="shortcut icon"
-      href="./favicon/favicon.ico"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -38,9 +35,56 @@
     <title>Sign up</title>
   </head>
   <body>
-    <main>
-      <div class="leftCol"></div>
-      <div class="rightCol"></div>
+    <main class="container">
+      <div class="left-column">
+        <h1 class="main-title">Sign up</h1>
+        <footer class="bottom-links">
+          <a href="#" class="link">Privacy policy</a>
+          <span class="symbol">&amp;</span>
+          <a href="#" class="link">terms of service</a>
+        </footer>
+      </div>
+      <div class="right-column">
+        <div class="close-form">X</div>
+        <form class="form">
+          <div class="form-row">
+            <label for="username">Name</label>
+            <input
+              id="username"
+              type="text"
+              required
+              placeholder="Your username"
+            />
+          </div>
+          <div class="form-row">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" required placeholder="Your email" />
+          </div>
+          <div class="form-row">
+            <label for="password">Password</label>
+            <input
+              id="password"
+              type="password"
+              required
+              placeholder="Your password"
+            />
+          </div>
+          <div class="form-row">
+            <label for="repass">Repeat password</label>
+            <input
+              id="repass"
+              type="password"
+              required
+              placeholder="Your password"
+            />
+          </div>
+          <div class="form-row">
+            <button type="submit">Get started</button>
+            <span>or</span>
+            <a href="#">Sign in</a>
+          </div>
+        </form>
+      </div>
     </main>
   </body>
 </html>
