@@ -8,7 +8,9 @@ body * {
 
 body {
   /* Background image */
+  background-color: #014083;
   /* background-image: url('../img/background.jpg'); */
+  /* background-color: #014083; */
   /* background-repeat: no-repeat; */
   /* filter: blur(8px); */
   /* -webkit-filter: blur(8px); */
@@ -16,7 +18,7 @@ body {
 }
 
 .container {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: inline-block;
   width: 1200px;
   margin-left: calc(50% - 600px);
@@ -32,21 +34,24 @@ body {
 .container > .left-column {
   float: left;
   width: 40%;
-  height: inherit;
+  height: 200px;
   padding: 40px;
-  background-color: rgb(250, 186, 108);
+  position: relative;
+  background-color: #014083;
   /* margin-top: 5%; */
   /* left column image */
-  /* background-image: url('../img/background.jpg'); */
-  /* background-size: cover; */
-  /* background-position: center; */
+  background-image: url('../img/background.jpg');
+  /* background-repeat: no-repeat; */ /* not need anymore*/
+  background-size: cover;
+  background-position: bottom;
 }
 
 .container > .right-column {
   float: left;
   width: 60%;
   padding: 60px;
-  background-color: aqua;
+  background-color: white;
+  position: relative;
 }
 
 h1.main-title {
@@ -60,31 +65,39 @@ h1.main-title {
 
 .bottom-links {
   color: rgb(255, 230, 230);
-  margin-top: 250px;
-  /* text-align: center; */
+  position: absolute;
+  bottom: 20px;
 }
 
 .bottom-links > .link {
   color: rgb(255, 230, 230);
-
-  /* position: absolute; */
-  /* bottom: 10px; */
-  /* width: 100%; */
-  /* text-align: center; */
 }
 
 .bottom-links > .link:hover {
   color: white;
 
-  /* position: absolute; */
-  /* bottom: 10px; */
-  /* width: 100%; */
-  /* text-align: center; */
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
 }
 
 .close-form {
-  /* position: absolute; */
-  /* right: 10px; */
-  /* top: 10px; */
-  /* padding: 60px; */
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 20px;
+  /* transform: rotate(45deg); */ /*rotate html element 45deg */
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.right-column span {
+}
+
+.right-column a {
 }
