@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/form.css" />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link
@@ -45,7 +46,44 @@
       </div>
       <div class="right-column">
         <div class="close-form">X</div>
-        <form>REGISTRATION FORM</form>
+        <form class="form">
+          <div class="form-row">
+            <label for="username">Name</label>
+            <input
+              id="username"
+              type="text"
+              required
+              placeholder="Your username"
+            />
+          </div>
+          <div class="form-row">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" required placeholder="Your email" />
+          </div>
+          <div class="form-row">
+            <label for="password">Password</label>
+            <input
+              id="password"
+              type="password"
+              required
+              placeholder="Your password"
+            />
+          </div>
+          <div class="form-row">
+            <label for="repass">Repeat password</label>
+            <input
+              id="repass"
+              type="password"
+              required
+              placeholder="Your password"
+            />
+          </div>
+          <div class="form-row">
+            <button type="submit">Get started</button>
+            <span>or</span>
+            <a href="#">Sign in</a>
+          </div>
+        </form>
       </div>
     </main>
   </body>
