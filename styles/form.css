@@ -1,4 +1,4 @@
-.form {
+kurti .form {
   width: 100%;
 }
 
@@ -27,7 +27,45 @@
 }
 
 .form > .form-row > button {
+  background: rgb(12, 4, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(12, 4, 145, 1) 0%,
+    rgba(109, 109, 128, 1) 50%,
+    rgba(60, 83, 139, 1) 100%
+  );
+  padding: 15px 70px;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.form > .form-row > button:hover {
+  background-color: red;
+  background: linear-gradient(
+    90deg,
+    rgb(206, 7, 83) 0%,
+    rgb(188, 113, 190) 50%,
+    rgb(142, 9, 146) 100%
+  );
 }
 
 .form > .form-row > span {
+  line-height: 52px;
+  font-size: 20px;
+}
+
+.form-row > a {
+  line-height: 52px;
+  color: rgb(4, 70, 145);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.form-row > a:hover {
+  color: red;
 }
