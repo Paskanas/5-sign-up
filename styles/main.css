@@ -1,0 +1,92 @@
+.bg {
+  /* Background image */
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
+
+.container {
+  display: inline-block;
+  width: 1200px;
+  /* Make content in the middle */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container > .left-column {
+  float: left;
+  width: 40%;
+  padding: 40px;
+  position: absolute;
+  background-color: #014083;
+  /* left column image */
+  background-image: url('../img/background.jpg');
+  /* background-repeat: no-repeat; */ /* not need anymore*/
+  background-size: cover;
+  background-position: bottom;
+  top: 20px;
+  bottom: 20px;
+}
+
+.container > .right-column {
+  float: right;
+  width: 60%;
+  padding: 60px;
+  background-color: white;
+  position: relative;
+}
+
+h1.main-title {
+  color: rgb(255, 230, 230);
+  font-size: 40px;
+  font-weight: normal;
+  width: 100%;
+}
+
+.bottom-links {
+  color: rgb(255, 230, 230);
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  right: 40px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.bottom-links > .link {
+  color: rgb(255, 230, 230);
+}
+
+.bottom-links > .link:hover {
+  color: white;
+}
+
+.close-form {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 20px;
+  /* transform: rotate(45deg); */ /*rotate html element 45deg */
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.right-column span {
+}
+
+.right-column a {
+}
