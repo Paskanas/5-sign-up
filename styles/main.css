@@ -29,25 +29,26 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); */
+  position: relative;
 }
 
 .container > .left-column {
   float: left;
   width: 40%;
-  height: 200px;
   padding: 40px;
-  position: relative;
+  position: absolute;
   background-color: #014083;
-  /* margin-top: 5%; */
   /* left column image */
   background-image: url('../img/background.jpg');
   /* background-repeat: no-repeat; */ /* not need anymore*/
   background-size: cover;
   background-position: bottom;
+  top: 20px;
+  bottom: 20px;
 }
 
 .container > .right-column {
-  float: left;
+  float: right;
   width: 60%;
   padding: 60px;
   background-color: white;
@@ -59,14 +60,14 @@ h1.main-title {
   font-size: 40px;
   font-weight: normal;
   width: 100%;
-  /* position: absolute; */
-  /* top: 15%; */
 }
 
 .bottom-links {
   color: rgb(255, 230, 230);
   position: absolute;
   bottom: 20px;
+  left: 40px;
+  right: 40px;
 }
 
 .bottom-links > .link {
